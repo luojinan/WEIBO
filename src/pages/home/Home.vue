@@ -1,19 +1,38 @@
 <template>
-  <div class="home">  
-    首页
-    <span class="iconfont">&#xe653;</span>
-    <img src="http://i2.hdslb.com/bfs/archive/e486384587f45f4f0fd42f0b487aa72cf6ef0fd0.jpg" />
+  <div class="home" ref="wrapper">  
+  	<div >
+		<home-content></home-content>
+		<home-pose></home-pose>
+	</div>
   </div>
 </template>
 
 <script>
+import HomeContent from './components/HomeContent'
+import HomePose from './components/HomePose'
+
+import BScroll from 'better-scroll'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  components:{
+  	HomeContent,
+  	HomePose
+  },
+  mounted(){
+    this.scroll = new BScroll(this.$refs.wrapper)
+  },
 }
 </script>
 
 <style>
 .home {
-
+	overflow: hidden;
+    position: absolute;
+    top:1.84rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
+
 </style>
