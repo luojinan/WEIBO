@@ -14,16 +14,18 @@ export default {
 <style>
 .home-pose{
 	z-index: 99;
-	position: fixed;	/*根据页面定位，页面被我固定住了，并不会出现滚动现象，导致悬浮球定在一个固定页面中*/
+	position: absolute;	/*根据页面定位，*/
 	right: .4rem;
-	top: 1rem;
+	bottom: .4rem;
 
-	height: 1rem;
-	line-height: 1rem;
+	height: 1.4rem;
+	width: 1.4rem;
+	border-radius: .7rem;
+	line-height: 1.4rem;
 	text-align: center;
-	width: 1rem;
-	border-radius: .5rem;
-	background-color: #eee;
-	font-size: .36rem;
+	
+	background-color: #fff;
+	box-shadow:.05rem .1rem .1rem #c8c8c8;
+	font-size: .38rem;
 }
 </style>

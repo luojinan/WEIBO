@@ -1,102 +1,116 @@
 <template>
-  <div>  
-    <div class="home-content__header">
-    	<div class="home-content__header-left">
-    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
-    		<div class="home-content__name">安安安的安安安安仔</div>
-    		<div class="home-content__time">1小时前  来自iphone se</div>
-    	</div>
-		<div class="home-content__header-right">
-			<span class="iconfont home-content__header-icon">&#xe600;</span>
-		</div>
-    </div>
+<div class="home-content" ref="wrapper">
+	<div>  
+	    <div class="home-content__header">
+	    	<div class="home-content__header-left">
+	    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
+	    		<div class="home-content__name">安安安的安安安安仔</div>
+	    		<div class="home-content__time">1小时前  来自iphone se</div>
+	    	</div>
+			<div class="home-content__header-right">
+				<span class="iconfont home-content__header-icon">&#xe600;</span>
+			</div>
+	    </div>
 
-    <div class="home-content__item">
-    	微博内容
-    </div>
+	    <div class="home-content__item">
+	    	微博内容
+	    </div>
 
-    <div class="home-content__buttons">
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
-    </div>
+	    <div class="home-content__buttons">
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
+	    </div>
 
-    <div class="home-content__header">
-    	<div class="home-content__header-left">
-    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
-    		<div class="home-content__name">安安安的安安安安仔</div>
-    		<div class="home-content__time">1小时前  来自iphone se</div>
-    	</div>
-		<div class="home-content__header-right">
-			<span class="iconfont home-content__header-icon">&#xe600;</span>
-		</div>
-    </div>
+	    <div class="home-content__header">
+	    	<div class="home-content__header-left">
+	    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
+	    		<div class="home-content__name">安安安的安安安安仔</div>
+	    		<div class="home-content__time">1小时前  来自iphone se</div>
+	    	</div>
+			<div class="home-content__header-right">
+				<span class="iconfont home-content__header-icon">&#xe600;</span>
+			</div>
+	    </div>
 
-    <div class="home-content__item">
-    	发表图片
-    	<img src="http://i2.hdslb.com/bfs/archive/e486384587f45f4f0fd42f0b487aa72cf6ef0fd0.jpg" />
-    </div>
+	    <div class="home-content__item">
+	    	发表图片
+	    	<img src="http://i2.hdslb.com/bfs/archive/e486384587f45f4f0fd42f0b487aa72cf6ef0fd0.jpg" />
+	    </div>
 
-    <div class="home-content__buttons">
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
-    </div>
+	    <div class="home-content__buttons">
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
+	    </div>
 
-    <div class="home-content__header">
-    	<div class="home-content__header-left">
-    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
-    		<div class="home-content__name">安安安的安安安安仔</div>
-    		<div class="home-content__time">1小时前  来自iphone se</div>
-    	</div>
-		<div class="home-content__header-right">
-			<span class="iconfont home-content__header-icon">&#xe600;</span>
-		</div>
-    </div>
+	    <div class="home-content__header">
+	    	<div class="home-content__header-left">
+	    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
+	    		<div class="home-content__name">安安安的安安安安仔</div>
+	    		<div class="home-content__time">1小时前  来自iphone se</div>
+	    	</div>
+			<div class="home-content__header-right">
+				<span class="iconfont home-content__header-icon">&#xe600;</span>
+			</div>
+	    </div>
 
-    <div class="home-content__item">
-    	发表图片
-    	<img src="http://i2.hdslb.com/bfs/archive/e486384587f45f4f0fd42f0b487aa72cf6ef0fd0.jpg" />
-    </div>
+	    <div class="home-content__item">
+	    	发表图片
+	    	<img src="http://i2.hdslb.com/bfs/archive/e486384587f45f4f0fd42f0b487aa72cf6ef0fd0.jpg" />
+	    </div>
 
-    <div class="home-content__buttons">
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
-    </div>
+	    <div class="home-content__buttons">
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
+	    </div>
 
-    <div class="home-content__header">
-    	<div class="home-content__header-left">
-    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
-    		<div class="home-content__name">安安安的安安安安仔</div>
-    		<div class="home-content__time">1小时前  来自iphone se</div>
-    	</div>
-		<div class="home-content__header-right">
-			<span class="iconfont home-content__header-icon">&#xe600;</span>
-		</div>
-    </div>
+	    <div class="home-content__header">
+	    	<div class="home-content__header-left">
+	    		<img src="https://tva4.sinaimg.cn/crop.0.0.1068.1068.180/ab9da63cjw8f57uj9eo5nj20to0tpwfv.jpg"  />
+	    		<div class="home-content__name">安安安的安安安安仔</div>
+	    		<div class="home-content__time">1小时前  来自iphone se</div>
+	    	</div>
+			<div class="home-content__header-right">
+				<span class="iconfont home-content__header-icon">&#xe600;</span>
+			</div>
+	    </div>
 
-    <div class="home-content__item">
-    	发表图片
-    	<img src="http://i2.hdslb.com/bfs/archive/e486384587f45f4f0fd42f0b487aa72cf6ef0fd0.jpg" />
-    </div>
+	    <div class="home-content__item">
+	    	发表图片
+	    	<img src="http://i2.hdslb.com/bfs/archive/e486384587f45f4f0fd42f0b487aa72cf6ef0fd0.jpg" />
+	    </div>
 
-    <div class="home-content__buttons">
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
-    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
-    </div>
-  </div>
+	    <div class="home-content__buttons">
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe651;</span>转发</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe60a;</span>69</div>
+	    	<div class="home-content__buttons-item"><span class="iconfont">&#xe602;</span>215</div>
+	    </div>
+	</div>
+</div>
 </template>
 
 <script>
+import BScroll from 'better-scroll'
+
 export default {
-  name: 'HomeContent'
+  name: 'HomeContent',
+  mounted(){
+    this.scroll = new BScroll(this.$refs.wrapper)
+  },
 }
 </script>
 
 <style>
-
+.home-content{
+	overflow: hidden;
+    position: absolute;
+    top:1.84rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 /* 个人信息样式 */
 .home-content__header{
 	display: flex;
